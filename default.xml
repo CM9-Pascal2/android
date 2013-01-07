@@ -372,7 +372,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   
-     <project path="android" name="CM9-Pascal2/android" remote="github" revision="cm10.1" />
+     <project path="android" name="CM9-Pascal2/android" remote="github" revision="cm-10.1" />
  <project path="device/rockchip/rk2918" name="CM9-Pascal2/android_device_rockchip_rk2918" remote="github" revision="cm10.1"/>
   <project path="vendor/rockchip/rk2918" name="CM9-Pascal2/android_vendor_rockchip_rk2918" remote="github" revision="cm10.1"/>
    <project path="kernel/rockchip/rk2918" name="toiiki/android_kernel_rockchip_pascal2" remote="github" revision="3.0.8"/>
