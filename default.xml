@@ -10,6 +10,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="bt" 
+            fetch="https://bitbucket.org/" />
+
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
@@ -23,7 +26,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" remote="bt" revision="jellybean" name="cm3066/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="jb-mr1-release" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
@@ -379,6 +382,7 @@
   <project path="hardware/realtek/wlan" name="CM9-Pascal2/android_hardware_realtek_wlan" remote="github" revision="master"/>
   <project path="android_builder" name="CM9-Pascal2/android_builder" remote="github" revision="ics">
       <copyfile src="builder.sh" dest="builder.sh" />
+  <project path="vendor/rockchip/rk2918_tools" remote="bt" name="cm3066/android_vendor_rockchip_rk2918_tools" revision="master" />
 </project>
   
 </manifest>
