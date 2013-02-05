@@ -383,5 +383,3 @@
       <copyfile src="builder.sh" dest="builder.sh" />  
 </project>
 </manifest>
-  
-</manifest>
